@@ -169,6 +169,17 @@ a { color: inherit; text-decoration: none }
     color: #06121f; font: 700 2.4rem var(--display);
 }
 
+.avatar-photo {
+    width: 128px; height: 128px; border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    object-fit: cover;
+    border: 3px solid transparent;
+    background:
+        linear-gradient(var(--bg), var(--bg)) padding-box,
+        linear-gradient(135deg, var(--cyan), var(--violet)) border-box;
+}
+
 .avatar-card h3 { font: 700 1.15rem var(--display); margin: 0 0 6px }
 .avatar-card p { color: var(--muted); font-size: .88rem; margin: 0 0 20px }
 
